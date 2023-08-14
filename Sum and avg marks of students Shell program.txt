@@ -1,0 +1,45 @@
+#!/bin/sh
+echo "Enter the Number of Students"
+read n
+a=1
+for((a=1;a<=n;a++))
+do
+        echo "Enter Student Name:"
+        read Student
+        echo "English Marks"
+        read English
+        echo "Maths Marks"
+        read Maths
+        echo "Science marks"
+        read Science
+        sum=$(($English+$Maths+$Science))
+        per=$((100*$sum/300))
+        echo "Total=" $sum
+        echo "Percentage=" $per
+done
+        
+OUTPUT:
+
+Enter the Number of Students
+2
+Enter Student Name:
+Deepak
+English Marks
+75
+Maths Marks
+90
+Science marks
+85
+Total= 250
+Percentage= 83
+
+Enter Student Name:
+KOwshik
+English Marks
+78
+Maths Marks
+89
+Science marks
+96
+Total= 263
+Percentage= 87

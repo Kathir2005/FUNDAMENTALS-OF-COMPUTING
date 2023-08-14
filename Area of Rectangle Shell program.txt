@@ -1,0 +1,15 @@
+#!/bin/sh
+echo
+read l
+echo "Enter base"
+read b
+area=$((l*b))
+echo "Area of rectangle"= $area
+
+OUTPUT:
+
+Enter Length
+5
+Enter base
+5
+Area of rectangle= 25

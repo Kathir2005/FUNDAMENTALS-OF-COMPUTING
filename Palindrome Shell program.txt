@@ -1,0 +1,24 @@
+#!/bin/sh
+echo "Enter a Number: "
+read n
+sum=0
+temp=$n
+while [ $n -gt 0 ]
+do
+        r=$((n%10))
+        sum=$((r+sum*10))
+        n=$((n/10))
+done
+if [ $temp -eq $sum ]
+then
+        echo "It is Palindrome"
+else
+        echo "It is not a Palindrome"
+fi
+
+OUTPUT:
+
+Enter a Number: 
+101
+It is Palindrome
+

@@ -1,0 +1,24 @@
+#!/bin/sh
+echo "Enter a Integer:"
+read m
+a=1
+echo "n Natural numbers: "
+for((a=1;a<m;a++))
+do
+        echo $a
+        done
+
+OUTPUT:
+
+Enter a Integer:
+10
+n Natural numbers: 
+1
+2
+3
+4
+5
+6
+7
+8
+9

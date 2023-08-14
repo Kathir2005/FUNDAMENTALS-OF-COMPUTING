@@ -1,0 +1,11 @@
+#!/bin/sh
+echo "Enter the number"
+read a
+cube=$((a*a*a))
+echo "cube of "$a"="$cube
+
+OUTPUT:
+
+Enter the number
+2
+cube of 2=8

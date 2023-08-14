@@ -1,0 +1,11 @@
+Square Root Of a Number
+
+#!/bin/sh
+echo "Enter a number"
+read a
+square =$((a*a))
+echo "Square of "$a" = "$square
+
+OUTPUT:
+Enter the number: 5
+square of 5=25

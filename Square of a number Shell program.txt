@@ -1,0 +1,11 @@
+#!/bin/sh
+echo "Enter the number"
+read a
+square=$((a*a))
+echo "square of "$a"="$square
+
+OUTPUT:
+
+Enter the number
+2
+square of 2=4

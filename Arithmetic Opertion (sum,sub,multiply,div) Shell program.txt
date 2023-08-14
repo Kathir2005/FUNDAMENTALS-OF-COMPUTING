@@ -1,0 +1,25 @@
+#!/bin/sh
+echo "Enter the Value of a: "
+read a
+echo "Enter the Value of b: "
+read b
+Sum=$((a+b))
+echo "sum="$Sum
+Subtraction=$((a-b))
+echo "subtraction="$Subtraction
+Multiply=$((a*b))
+echo "product="$Multiply
+Divide=$((a/b))
+echo "Divide="$Divide
+
+OUTPUT:
+
+Enter the Value of a: 
+10
+Enter the Value of b: 
+5
+
+sum=15
+subtraction=5
+product=50
+Divide=2

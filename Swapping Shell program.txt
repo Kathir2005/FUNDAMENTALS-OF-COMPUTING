@@ -1,0 +1,19 @@
+#!/bin/bash
+echo "Enter the First Number"
+read first
+echo "Enter the Second Number"
+read second
+temp=$first
+first=$second
+second=$temp
+echo "After Swapping"
+echo "First Number = $first, Second Number = $second"
+
+OUTPUT:
+
+Enter the First Number
+40
+Enter the Second Number
+80
+After Swapping
+First Number = 80, Second Number = 40
